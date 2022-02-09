@@ -18,13 +18,15 @@ def object_to_int(dataframe_series):
 
 
 def go(args):
-    run = wandb.init(job_type='download_file')
+    run = wandb.init(job_type='preprocess_data')
     run.config.update(args)
 
-    logger.info(f"Returning sample {args.sample}")
-    logger.info(f'Uploading {args.artifact_name} to Weights and Biases')
+    
+    logger.info(f'Reading raw data from Weights and Biases')
 
-    df = pd.read_csv(os.path.join('data', 'Telco1.csv'))
+    artifact_local_path = run.use_artifact(args.input).file()
+
+    df = pd.read_csv(artifact_local_path)
     df = df.drop(['customerID'], axis = 1)
     df["TotalCharges"] = pd.to_numeric(df.TotalCharges, errors = 'coerce')
     df.isnull().sum()
@@ -53,6 +55,7 @@ def go(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Download URL to local destination")
     parser.add_argument('sample', type=str, help='Name of sample to download')
+    parser.add_argument('input', type=str, help='Name for the input artifact')
     parser.add_argument('artifact_name', type=str, help='Name for the output artifact')
     parser.add_argument('artifact_type', type=str, help='Type of output artifact')
     parser.add_argument('artifact_description', type=str, help='Description of this artifact')
