@@ -9,6 +9,10 @@ entry_points:
         description: Name of sample to download
         type: string
 
+      input:
+        description: Name for the input artifact
+        type: string
+      
       artifact_name:
         description: Name for the output artifact
         type: string
@@ -22,4 +26,4 @@ entry_points:
         description: A brief description of the output artifact
         type: string
 
-    command: "python download_data.py {sample} {artifact_name} {artifact_type} {artifact_description}"
+    command: "python preprocess.py {sample} {input} {artifact_name} {artifact_type} {artifact_description}"
