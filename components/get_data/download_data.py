@@ -4,7 +4,6 @@ import os
 import wandb
 from wandb_utils.log_artifact import log_artifact
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
@@ -30,7 +29,7 @@ if __name__ == '__main__':
     parser.add_argument('artifact_type', type=str, help='Type of output artifact')
     parser.add_argument('artifact_description', type=str, help='Description of this artifact')
 
-    args.parser.parser_args()
+    args = parser.parse_args()
 
     go(args)
     

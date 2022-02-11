@@ -1,0 +1,20 @@
+2022-02-11 10:58:49,159 Returning sample Telco1.csv
+2022-02-11 10:58:49,159 Uploading Telco.csv to Weights and Biases
+Traceback (most recent call last):
+  File "download_data.py", line 34, in <module>
+    go(args)
+  File "download_data.py", line 18, in go
+    log_artifact(args.artifact_name,
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/site-packages/wandb_utils/log_artifact.py", line 28, in log_artifact
+    artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 631, in wait
+    return self._logged_artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2449, in wait
+    resp = self._future.get().response.log_artifact_response
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 82, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-979f7f986a60824ce2cd07d3bd66e153f30e803a/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
