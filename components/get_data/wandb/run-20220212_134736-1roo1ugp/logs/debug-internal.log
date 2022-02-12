@@ -1,0 +1,160 @@
+2022-02-12 13:47:37,485 INFO    MainThread:93425 [internal.py:wandb_internal():88] W&B internal server running at pid: 93425, started at: 2022-02-12 13:47:37.484598
+2022-02-12 13:47:37,487 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: check_version
+2022-02-12 13:47:37,487 INFO    WriterThread:93425 [datastore.py:open_for_write():77] open: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/run-1roo1ugp.wandb
+2022-02-12 13:47:37,489 DEBUG   SenderThread:93425 [sender.py:send():179] send: header
+2022-02-12 13:47:37,489 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: check_version
+2022-02-12 13:47:38,580 DEBUG   SenderThread:93425 [sender.py:send():179] send: run
+2022-02-12 13:47:39,316 INFO    SenderThread:93425 [dir_watcher.py:__init__():168] watching files in: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files
+2022-02-12 13:47:39,317 INFO    SenderThread:93425 [sender.py:_start_run_threads():704] run started: 1roo1ugp with start time 1644655656
+2022-02-12 13:47:39,317 DEBUG   SenderThread:93425 [sender.py:send():179] send: summary
+2022-02-12 13:47:39,317 INFO    SenderThread:93425 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-02-12 13:47:39,318 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: run_start
+2022-02-12 13:47:39,319 DEBUG   HandlerThread:93425 [meta.py:__init__():39] meta init
+2022-02-12 13:47:39,319 DEBUG   HandlerThread:93425 [meta.py:__init__():53] meta init done
+2022-02-12 13:47:39,319 DEBUG   HandlerThread:93425 [meta.py:probe():210] probe
+2022-02-12 13:47:39,325 DEBUG   HandlerThread:93425 [meta.py:_setup_git():200] setup git
+2022-02-12 13:47:39,369 DEBUG   HandlerThread:93425 [meta.py:_setup_git():207] setup git done
+2022-02-12 13:47:39,370 DEBUG   HandlerThread:93425 [meta.py:_save_pip():57] save pip
+2022-02-12 13:47:39,371 DEBUG   HandlerThread:93425 [meta.py:_save_pip():71] save pip done
+2022-02-12 13:47:39,371 DEBUG   HandlerThread:93425 [meta.py:_save_conda():78] save conda
+2022-02-12 13:47:40,320 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/requirements.txt
+2022-02-12 13:47:40,321 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/conda-environment.yaml
+2022-02-12 13:47:40,321 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-summary.json
+2022-02-12 13:47:40,864 DEBUG   HandlerThread:93425 [meta.py:_save_conda():86] save conda done
+2022-02-12 13:47:40,864 DEBUG   HandlerThread:93425 [meta.py:probe():252] probe done
+2022-02-12 13:47:40,869 DEBUG   SenderThread:93425 [sender.py:send():179] send: files
+2022-02-12 13:47:40,869 INFO    SenderThread:93425 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2022-02-12 13:47:40,876 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: stop_status
+2022-02-12 13:47:40,876 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: stop_status
+2022-02-12 13:47:41,324 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/conda-environment.yaml
+2022-02-12 13:47:41,324 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-metadata.json
+2022-02-12 13:47:41,325 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/output.log
+2022-02-12 13:47:41,609 DEBUG   SenderThread:93425 [sender.py:send():179] send: config
+2022-02-12 13:47:41,611 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: log_artifact
+2022-02-12 13:47:41,611 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: log_artifact
+2022-02-12 13:47:42,513 INFO    Thread-11 :93425 [upload_job.py:push():133] Uploaded file /var/folders/t_/s5_fbxpn7_g2q89lqrxbq6j40000gn/T/tmpcrormj10wandb/3ac4l5vf-wandb-metadata.json
+2022-02-12 13:47:43,327 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/output.log
+2022-02-12 13:47:44,332 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/config.yaml
+2022-02-12 13:47:45,904 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:45,905 DEBUG   SenderThread:93425 [sender.py:send():179] send: telemetry
+2022-02-12 13:47:45,905 DEBUG   SenderThread:93425 [sender.py:send():179] send: exit
+2022-02-12 13:47:45,905 INFO    SenderThread:93425 [sender.py:send_exit():287] handling exit code: 0
+2022-02-12 13:47:45,905 INFO    SenderThread:93425 [sender.py:send_exit():295] send defer
+2022-02-12 13:47:45,905 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:45,906 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:45,906 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 0
+2022-02-12 13:47:45,906 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:45,906 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-02-12 13:47:45,906 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 1
+2022-02-12 13:47:45,907 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:45,907 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 1
+2022-02-12 13:47:46,013 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:46,014 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:46,014 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-02-12 13:47:46,014 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 2
+2022-02-12 13:47:46,015 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:46,015 DEBUG   SenderThread:93425 [sender.py:send():179] send: stats
+2022-02-12 13:47:46,015 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:46,015 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 2
+2022-02-12 13:47:46,016 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:46,016 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-02-12 13:47:46,016 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 3
+2022-02-12 13:47:46,016 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:46,016 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 3
+2022-02-12 13:47:46,016 DEBUG   SenderThread:93425 [sender.py:send():179] send: summary
+2022-02-12 13:47:46,017 INFO    SenderThread:93425 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-02-12 13:47:46,017 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:46,017 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-02-12 13:47:46,017 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 4
+2022-02-12 13:47:46,017 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:46,018 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 4
+2022-02-12 13:47:46,018 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:46,018 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-02-12 13:47:46,119 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:46,336 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/output.log
+2022-02-12 13:47:46,336 INFO    Thread-8  :93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-summary.json
+2022-02-12 13:47:46,765 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 5
+2022-02-12 13:47:46,765 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:46,766 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:46,766 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 5
+2022-02-12 13:47:46,766 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:46,766 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-02-12 13:47:46,766 INFO    SenderThread:93425 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-02-12 13:47:46,868 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:47,342 INFO    SenderThread:93425 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/config.yaml
+2022-02-12 13:47:47,343 INFO    SenderThread:93425 [dir_watcher.py:finish():312] scan: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files
+2022-02-12 13:47:47,343 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/requirements.txt requirements.txt
+2022-02-12 13:47:47,343 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/output.log output.log
+2022-02-12 13:47:47,346 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/config.yaml config.yaml
+2022-02-12 13:47:47,349 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-summary.json wandb-summary.json
+2022-02-12 13:47:47,353 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/conda-environment.yaml conda-environment.yaml
+2022-02-12 13:47:47,353 INFO    SenderThread:93425 [dir_watcher.py:finish():318] scan save: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-metadata.json wandb-metadata.json
+2022-02-12 13:47:47,353 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 6
+2022-02-12 13:47:47,353 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:47,355 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:47,355 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 6
+2022-02-12 13:47:47,358 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:47,359 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-02-12 13:47:47,361 INFO    SenderThread:93425 [file_pusher.py:finish():176] shutting down file pusher
+2022-02-12 13:47:47,361 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 7
+2022-02-12 13:47:47,362 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:47,363 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 7
+2022-02-12 13:47:47,364 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:47,364 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-02-12 13:47:47,459 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:47,880 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 8
+2022-02-12 13:47:47,881 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:47,881 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:47,881 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 8
+2022-02-12 13:47:47,882 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:47,882 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-02-12 13:47:47,882 INFO    SenderThread:93425 [sender.py:send_request_defer():342] send defer: 9
+2022-02-12 13:47:47,882 DEBUG   SenderThread:93425 [sender.py:send():179] send: final
+2022-02-12 13:47:47,883 DEBUG   SenderThread:93425 [sender.py:send():179] send: footer
+2022-02-12 13:47:47,883 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: defer
+2022-02-12 13:47:47,883 INFO    HandlerThread:93425 [handler.py:handle_request_defer():141] handle defer: 9
+2022-02-12 13:47:47,883 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: defer
+2022-02-12 13:47:47,883 INFO    SenderThread:93425 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-02-12 13:47:47,984 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:47,985 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,090 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,091 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,193 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,195 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,300 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,300 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,408 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,409 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,514 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,515 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,617 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,618 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,724 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,724 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,829 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,829 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:48,932 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:48,932 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:49,036 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:49,036 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:49,132 INFO    Thread-13 :93425 [upload_job.py:push():133] Uploaded file /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/output.log
+2022-02-12 13:47:49,135 INFO    Thread-14 :93425 [upload_job.py:push():133] Uploaded file /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/config.yaml
+2022-02-12 13:47:49,135 INFO    Thread-12 :93425 [upload_job.py:push():133] Uploaded file /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/requirements.txt
+2022-02-12 13:47:49,137 INFO    Thread-15 :93425 [upload_job.py:push():133] Uploaded file /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/wandb-summary.json
+2022-02-12 13:47:49,139 INFO    Thread-16 :93425 [upload_job.py:push():133] Uploaded file /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/files/conda-environment.yaml
+2022-02-12 13:47:49,142 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:49,142 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:49,245 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:49,245 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:49,351 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: poll_exit
+2022-02-12 13:47:49,352 DEBUG   SenderThread:93425 [sender.py:send_request():193] send_request: poll_exit
+2022-02-12 13:47:49,352 INFO    SenderThread:93425 [file_pusher.py:join():181] waiting for file pusher
+2022-02-12 13:47:49,353 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: get_summary
+2022-02-12 13:47:49,354 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: sampled_history
+2022-02-12 13:47:49,355 DEBUG   HandlerThread:93425 [handler.py:handle_request():124] handle_request: shutdown
+2022-02-12 13:47:49,355 INFO    HandlerThread:93425 [handler.py:finish():638] shutting down handler
+2022-02-12 13:47:49,889 INFO    WriterThread:93425 [datastore.py:close():258] close: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/wandb/run-20220212_134736-1roo1ugp/run-1roo1ugp.wandb
+2022-02-12 13:47:50,357 INFO    SenderThread:93425 [sender.py:finish():933] shutting down sender
+2022-02-12 13:47:50,357 INFO    SenderThread:93425 [file_pusher.py:finish():176] shutting down file pusher
+2022-02-12 13:47:50,357 INFO    SenderThread:93425 [file_pusher.py:join():181] waiting for file pusher
+2022-02-12 13:47:50,359 INFO    MainThread:93425 [internal.py:handle_exit():78] Internal process exited

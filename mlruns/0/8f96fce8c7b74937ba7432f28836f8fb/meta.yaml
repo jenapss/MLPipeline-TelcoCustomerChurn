@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jelaleddin/MLPipeline-TelcoCustomerChurn/mlruns/0/8f96fce8c7b74937ba7432f28836f8fb/artifacts
+end_time: 1644587323838
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8f96fce8c7b74937ba7432f28836f8fb
+run_uuid: 8f96fce8c7b74937ba7432f28836f8fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1644587207062
+status: 4
+tags: []
+user_id: jelaleddin

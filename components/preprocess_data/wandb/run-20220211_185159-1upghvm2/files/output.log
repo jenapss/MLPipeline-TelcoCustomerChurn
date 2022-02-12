@@ -1,0 +1,20 @@
+
+2022-02-11 18:52:04,712 Reading raw data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 65, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 42, in go
+    df = df.apply(lambda x: object_to_int(x))
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-4baff1111dc086271cdcdfe8532cc833a6b761ab/lib/python3.9/site-packages/pandas/core/frame.py", line 8827, in apply
+    return op.apply().__finalize__(self, method="apply")
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-4baff1111dc086271cdcdfe8532cc833a6b761ab/lib/python3.9/site-packages/pandas/core/apply.py", line 727, in apply
+    return self.apply_standard()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-4baff1111dc086271cdcdfe8532cc833a6b761ab/lib/python3.9/site-packages/pandas/core/apply.py", line 851, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-4baff1111dc086271cdcdfe8532cc833a6b761ab/lib/python3.9/site-packages/pandas/core/apply.py", line 867, in apply_series_generator
+    results[i] = self.f(v)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 42, in <lambda>
+    df = df.apply(lambda x: object_to_int(x))
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 15, in object_to_int
+    dataframe_series = LabelEncoder().fit_transform(dataframe_series)
+NameError: name 'LabelEncoder' is not defined

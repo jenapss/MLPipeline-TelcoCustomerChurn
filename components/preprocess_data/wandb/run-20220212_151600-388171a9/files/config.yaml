@@ -1,0 +1,35 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.31
+    framework: catboost
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.10
+    t:
+      1:
+      - 5
+      - 6
+      - 7
+      2:
+      - 5
+      - 6
+      - 7
+      4: 3.9.10
+      5: 0.10.31
+      8:
+      - 5
+input:
+  desc: null
+  value: Telco.csv:latest
+output_artifact_name:
+  desc: null
+  value: clean_telco.csv
+output_artifact_type:
+  desc: null
+  value: clean_sample
+output_description:
+  desc: null
+  value: Data with outliers and null values removed

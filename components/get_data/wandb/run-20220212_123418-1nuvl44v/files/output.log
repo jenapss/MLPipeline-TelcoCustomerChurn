@@ -1,0 +1,72 @@
+2022-02-12 12:34:23,492 Returning sample Telco1.csv
+2022-02-12 12:34:23,493 Uploading Telco.csv to Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/download_data.py", line 34, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/get_data/download_data.py", line 18, in go
+    log_artifact(args.artifact_name,
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/wandb_utils/log_artifact.py", line 28, in log_artifact
+    artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/wandb/sdk/wandb_artifacts.py", line 631, in wait
+    return self._logged_artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2452, in wait
+    self._instance = public.Artifact.from_id(resp.artifact_id, self._api.client)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/wandb/apis/public.py", line 2742, in from_id
+    with requests.get(index_file_url) as req:
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-5db43bd27a8446422da9c67a9329d4bf1343e076/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))

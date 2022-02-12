@@ -1,0 +1,8 @@
+
+2022-02-11 18:49:34,051 Reading raw data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 65, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/preprocess_data/preprocess.py", line 33, in go
+    df[np.isnan(df['TotalCharges'])]
+NameError: name 'np' is not defined
