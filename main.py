@@ -93,7 +93,7 @@ def go(config: DictConfig):
                     "input": "clean_sample.csv:latest",
                     "test_size": config["modeling"]["test_size"],
                     "random_seed": config["modeling"]["random_seed"],
-                    "stratify": config["modeling"]["stratify_by"]},
+                    },
             )
 
         if "train_random_forest" in active_steps:
