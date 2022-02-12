@@ -1,0 +1,27 @@
+{
+    "os": "macOS-11.1-x86_64-i386-64bit",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-12T15:36:46.893123",
+    "startedAt": "2022-02-12T15:36:22.231368",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "clean_telco.csv:latest",
+        "0.3",
+        "--random_seed",
+        "40"
+    ],
+    "state": "running",
+    "program": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py",
+    "codePath": "components/train_val_test_split/run.py",
+    "git": {
+        "remote": "https://github.com/jenapss/MLPipeline-TelcoCustomerChurn",
+        "commit": "77360baa2b83bc787b34e4c1c2838acde53e58a0"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn",
+    "host": "jelaleddins-MBP",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/bin/python"
+}

@@ -1,0 +1,16 @@
+
+2022-02-12 18:11:13,111 Fetching artifact clean_telco.csv:latest
+2022-02-12 18:11:18,814 Splitting trainval and test
+2022-02-12 18:11:18,820 Uploading X_train_data.csv dataset
+2022-02-12 18:11:26,438 Uploading X_test_data.csv dataset
+2022-02-12 18:11:33,515 Uploading y_train_data.npy dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 79, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 54, in go
+    log_artifact(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb_utils/log_artifact.py", line 23, in log_artifact
+    artifact.add_file(filename)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/wandb_artifacts.py", line 368, in add_file
+    raise ValueError("Path is not a file: %s" % local_path)
+ValueError: Path is not a file: [1 0 0 ... 1 0 0]

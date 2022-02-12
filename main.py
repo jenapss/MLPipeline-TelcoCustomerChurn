@@ -87,10 +87,13 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _ = mlflow.run(
-                f"{config['main']['components_repository']}/train_val_test_split",
+                os.path.join(
+                    hydra.utils.get_original_cwd(),
+                    "components",
+                    "train_val_test_split"),
                 "main",
                 parameters={
-                    "input": "clean_sample.csv:latest",
+                    "input": "clean_telco.csv:latest",
                     "test_size": config["modeling"]["test_size"],
                     "random_seed": config["modeling"]["random_seed"],
                     },

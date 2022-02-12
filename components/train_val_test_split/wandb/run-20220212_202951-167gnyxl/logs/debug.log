@@ -1,0 +1,34 @@
+2022-02-12 20:29:51,755 INFO    MainThread:4221 [wandb_setup.py:_flush():69] setting env: {'project': 'telco_churn', 'run_group': 'development'}
+2022-02-12 20:29:51,755 INFO    MainThread:4221 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-02-12 20:29:51,755 INFO    MainThread:4221 [wandb_init.py:_log_setup():336] Logging user logs to /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/wandb/run-20220212_202951-167gnyxl/logs/debug.log
+2022-02-12 20:29:51,756 INFO    MainThread:4221 [wandb_init.py:_log_setup():337] Logging internal logs to /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/wandb/run-20220212_202951-167gnyxl/logs/debug-internal.log
+2022-02-12 20:29:51,756 INFO    MainThread:4221 [wandb_init.py:init():369] calling init triggers
+2022-02-12 20:29:51,756 INFO    MainThread:4221 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {}
+2022-02-12 20:29:51,757 INFO    MainThread:4221 [wandb_init.py:init():418] starting backend
+2022-02-12 20:29:51,757 INFO    MainThread:4221 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-12 20:29:51,773 INFO    MainThread:4221 [backend.py:ensure_launched():132] starting backend process...
+2022-02-12 20:29:51,790 INFO    MainThread:4221 [backend.py:ensure_launched():136] started backend process with pid: 4228
+2022-02-12 20:29:51,793 INFO    MainThread:4221 [wandb_init.py:init():423] backend started and connected
+2022-02-12 20:29:51,797 INFO    MainThread:4221 [wandb_init.py:init():465] updated telemetry
+2022-02-12 20:29:51,798 INFO    MainThread:4221 [wandb_init.py:init():484] communicating current version
+2022-02-12 20:29:56,803 INFO    MainThread:4221 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2022-02-12 20:30:03,634 INFO    MainThread:4221 [wandb_init.py:init():522] starting run threads in backend
+2022-02-12 20:30:05,180 INFO    MainThread:4221 [wandb_run.py:_console_start():1538] atexit reg
+2022-02-12 20:30:05,181 INFO    MainThread:4221 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.REDIRECT
+2022-02-12 20:30:05,181 INFO    MainThread:4221 [wandb_run.py:_redirect():1417] Redirecting console.
+2022-02-12 20:30:05,187 INFO    MainThread:4221 [wandb_run.py:_redirect():1473] Redirects installed.
+2022-02-12 20:30:05,187 INFO    MainThread:4221 [wandb_init.py:init():547] run started, returning control to user process
+2022-02-12 20:30:05,189 INFO    MainThread:4221 [wandb_run.py:_config_callback():787] config_cb None None {'input': 'clean_telco.csv:latest', 'test_size': 0.3, 'random_seed': 40}
+2022-02-12 20:31:42,547 INFO    MainThread:4221 [wandb_run.py:_atexit_cleanup():1508] got exitcode: 1
+2022-02-12 20:31:42,549 INFO    MainThread:4221 [wandb_run.py:_restore():1480] restore
+2022-02-12 20:31:44,752 INFO    MainThread:4221 [wandb_run.py:_wait_for_finish():1630] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 334372
+  total_bytes: 334372
+  deduped_bytes: 333413
+}
+

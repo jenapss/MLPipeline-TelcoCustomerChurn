@@ -1,0 +1,10 @@
+
+2022-02-12 16:58:21,012 Fetching artifact clean_telco.csv:latest
+2022-02-12 16:58:23,994 Splitting trainval and test
+2022-02-12 16:58:24,000 Uploading X_train_data.csv dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 63, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 35, in go
+    with teamfile.NamedTemporaryFile('w') as fp:
+NameError: name 'teamfile' is not defined

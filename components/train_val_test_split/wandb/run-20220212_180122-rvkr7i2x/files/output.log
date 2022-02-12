@@ -1,0 +1,12 @@
+
+2022-02-12 18:01:28,104 Fetching artifact clean_telco.csv:latest
+2022-02-12 18:01:31,010 Splitting trainval and test
+2022-02-12 18:01:31,041 Uploading X_train_data.csv dataset
+2022-02-12 18:01:38,186 Uploading X_test_data.csv dataset
+2022-02-12 18:01:45,206 Uploading y_train_data.npy dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 83, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 56, in go
+    df.to_csv(fp.name, index=False)
+AttributeError: 'numpy.ndarray' object has no attribute 'to_csv'

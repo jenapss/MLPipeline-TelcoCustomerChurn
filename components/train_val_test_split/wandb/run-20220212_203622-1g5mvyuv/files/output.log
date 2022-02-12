@@ -1,0 +1,80 @@
+
+2022-02-12 20:36:48,413 Fetching artifact clean_telco.csv:latest
+2022-02-12 20:36:59,814 Splitting trainval and test
+2022-02-12 20:36:59,825 Uploading X_train_data.csv dataset
+2022-02-12 20:38:05,118 Uploading X_test_data.csv dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 428, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=9)
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 86, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 44, in go
+    log_artifact(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb_utils/log_artifact.py", line 24, in log_artifact
+    wandb_run.log_artifact(artifact)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2080, in log_artifact
+    return self._log_artifact(artifact_or_path, name, type, aliases)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2201, in _log_artifact
+    self._assert_can_log_artifact(artifact)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2236, in _assert_can_log_artifact
+    expected_type = public.Artifact.expected_type(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/apis/public.py", line 2897, in expected_type
+    response = client.execute(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 159, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/apis/public.py", line 188, in execute
+    return self._client.execute(*args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-e22e9996835c795d42db199b2d7a286b1ecc7894/lib/python3.9/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=9)

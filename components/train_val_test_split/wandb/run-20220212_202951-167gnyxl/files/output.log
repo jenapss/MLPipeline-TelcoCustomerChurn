@@ -1,0 +1,11 @@
+
+2022-02-12 20:30:05,189 Fetching artifact clean_telco.csv:latest
+2022-02-12 20:30:15,439 Splitting trainval and test
+2022-02-12 20:30:15,454 Uploading X_train_data.csv dataset
+2022-02-12 20:30:30,368 Uploading X_test_data.csv dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 86, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 52, in go
+    np.save('y_train.npy', y_train)
+NameError: name 'np' is not defined

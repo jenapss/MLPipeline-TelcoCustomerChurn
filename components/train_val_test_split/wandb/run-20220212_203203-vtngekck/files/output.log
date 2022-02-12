@@ -1,0 +1,12 @@
+
+2022-02-12 20:32:13,500 Fetching artifact clean_telco.csv:latest
+2022-02-12 20:32:47,287 Splitting trainval and test
+2022-02-12 20:32:47,293 Uploading X_train_data.csv dataset
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:27.013271, resuming normal operation.
+2022-02-12 20:33:47,343 Uploading X_test_data.csv dataset
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 86, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_val_test_split/run.py", line 57, in go
+    y_train.npy, run
+AttributeError: 'numpy.ndarray' object has no attribute 'npy'
