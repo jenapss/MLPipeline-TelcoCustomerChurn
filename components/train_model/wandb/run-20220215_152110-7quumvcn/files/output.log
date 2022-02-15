@@ -1,0 +1,8 @@
+
+2022-02-15 15:21:14,385 Reading preprocessed data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 93, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 34, in go
+    X_train = pd.read_csv(X_tr)
+NameError: name 'pd' is not defined

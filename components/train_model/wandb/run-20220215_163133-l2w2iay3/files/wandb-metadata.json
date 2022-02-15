@@ -1,0 +1,24 @@
+{
+    "os": "macOS-11.1-x86_64-i386-64bit",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-15T11:31:36.805504",
+    "startedAt": "2022-02-15T11:31:33.366841",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "clean_telco.csv:latest"
+    ],
+    "state": "running",
+    "program": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py",
+    "codePath": "components/train_model/train_model.py",
+    "git": {
+        "remote": "https://github.com/jenapss/MLPipeline-TelcoCustomerChurn",
+        "commit": "a19aafed8035f56be2294c2921089229b33dccdc"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/bin/python"
+}

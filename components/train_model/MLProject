@@ -1,0 +1,14 @@
+name: train_model
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      train_data:
+        description: training_data
+        type: string
+      
+
+
+    command: "python train_model.py {train_data}"

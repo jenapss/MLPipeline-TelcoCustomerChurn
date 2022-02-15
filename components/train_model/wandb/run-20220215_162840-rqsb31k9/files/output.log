@@ -1,0 +1,9 @@
+
+2022-02-15 16:28:48,617 Reading preprocessed data from Weights and Biases
+<class 'pandas.core.frame.DataFrame'>
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 78, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 40, in go
+    X_train, X_test, y_train, y_test = train_test_split(X,y,test_size = 0.30, random_state = 40, stratify=y)
+NameError: name 'train_test_split' is not defined

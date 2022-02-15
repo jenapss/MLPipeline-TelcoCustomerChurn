@@ -1,0 +1,8 @@
+
+2022-02-15 16:27:46,801 Reading preprocessed data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 78, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 31, in go
+    training_data = pd.read_csv(training_data,encoding="ISO-8859–1")
+UnboundLocalError: local variable 'training_data' referenced before assignment

@@ -1,0 +1,31 @@
+
+2022-02-15 16:29:50,840 Reading preprocessed data from Weights and Biases
+<class 'pandas.core.frame.DataFrame'>
+2022-02-15 16:29:53,762 Preparing sklearn pipeline
+/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py:48: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_train[num_cols] = scaler.fit_transform(X_train[num_cols])
+/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexing.py:1734: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  isetter(loc, value[:, i].tolist())
+/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py:49: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[num_cols] = scaler.transform(X_test[num_cols])
+/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexing.py:1734: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  isetter(loc, value[:, i].tolist())
+0.8137440758293839
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 78, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 59, in go
+    joblib.dump(rf, "components/train_model/model/my_random_forest.joblib")
+NameError: name 'rf' is not defined

@@ -1,0 +1,8 @@
+
+2022-02-15 16:00:39,953 Reading preprocessed data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 93, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 36, in go
+    y_train = np.load(y_tr)
+NameError: name 'np' is not defined

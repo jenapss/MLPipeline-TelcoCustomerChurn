@@ -1,0 +1,13 @@
+
+2022-02-15 15:17:56,121 Reading preprocessed data from Weights and Biases
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+2022-02-15 15:18:08,118 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 88, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 46, in go
+    X_train[num_cols] = scaler.fit_transform(X_train[num_cols])
+TypeError: string indices must be integers
