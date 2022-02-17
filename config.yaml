@@ -19,7 +19,7 @@ modeling:
   # Fix this for reproducibility, change to have new splits
   random_seed: 40
   # Column to use for stratification (use "none" for no stratification)
-  stratify_by: "neighbourhood_group"
+  stratify_by: "Churn"
   # Maximum number of features to consider for the TFIDF applied to the title of the
   # insertion (the column called "name")
   max_tfidf_features: 5

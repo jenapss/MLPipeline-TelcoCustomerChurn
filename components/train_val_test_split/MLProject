@@ -17,6 +17,10 @@ entry_points:
         description: Seed for the random number generator. Use this for reproducibility
         type: string
         default: 42
+      
+      stratify_by:
+        description: Stratify by parameter
+        type: string
 
 
-    command: "python run.py {input} {test_size} --random_seed {random_seed}"
+    command: "python run.py {input} {test_size} --random_seed {random_seed} {stratify_by}"

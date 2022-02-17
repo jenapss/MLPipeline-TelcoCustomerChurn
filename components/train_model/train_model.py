@@ -31,8 +31,6 @@ def go(args):
     training_data = pd.read_csv(training_artifact,encoding="ISO-8859–1")
 
     # print(type(training_data))
-    
-
 
     X = training_data.drop(columns = ['Churn'])
     y = training_data['Churn'].values
