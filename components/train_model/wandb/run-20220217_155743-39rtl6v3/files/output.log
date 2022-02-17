@@ -1,0 +1,25 @@
+
+2022-02-17 15:57:47,467 Reading preprocessed data from Weights and Biases
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Churn'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 76, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 36, in go
+    y = X.pop("Churn")
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/frame.py", line 4371, in pop
+    return super().pop(item=item)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/generic.py", line 661, in pop
+    result = self[item]
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Churn'

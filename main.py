@@ -121,7 +121,7 @@ def go(config: DictConfig):
                     "train_model"),
                 "main",
                 parameters={
-                    "train_data": "clean_telco.csv:v0",
+                    "train_data": "trainval_data.csv:latest",
                     },
             )
         

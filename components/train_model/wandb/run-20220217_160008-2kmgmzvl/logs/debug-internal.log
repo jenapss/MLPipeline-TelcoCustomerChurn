@@ -1,0 +1,70 @@
+2022-02-17 16:00:09,122 INFO    MainThread:17618 [internal.py:wandb_internal():88] W&B internal server running at pid: 17618, started at: 2022-02-17 16:00:09.122208
+2022-02-17 16:00:09,124 DEBUG   HandlerThread:17618 [handler.py:handle_request():124] handle_request: check_version
+2022-02-17 16:00:09,125 INFO    WriterThread:17618 [datastore.py:open_for_write():77] open: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/wandb/run-20220217_160008-2kmgmzvl/run-2kmgmzvl.wandb
+2022-02-17 16:00:09,126 DEBUG   SenderThread:17618 [sender.py:send():179] send: header
+2022-02-17 16:00:09,126 DEBUG   SenderThread:17618 [sender.py:send_request():193] send_request: check_version
+2022-02-17 16:00:14,131 DEBUG   SenderThread:17618 [sender.py:send():179] send: run
+2022-02-17 16:00:43,156 DEBUG   HandlerThread:17618 [handler.py:handle_request():124] handle_request: shutdown
+2022-02-17 16:00:43,157 INFO    HandlerThread:17618 [handler.py:finish():638] shutting down handler
+2022-02-17 16:00:43,244 INFO    WriterThread:17618 [datastore.py:close():258] close: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/wandb/run-20220217_160008-2kmgmzvl/run-2kmgmzvl.wandb
+2022-02-17 16:00:47,528 ERROR   SenderThread:17618 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x1395ed7f0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1395ed7f0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 127, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x1395ed7f0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2022-02-17 16:01:07,855 INFO    MainThread:17618 [internal.py:handle_exit():78] Internal process exited

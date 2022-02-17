@@ -1,0 +1,102 @@
+
+2022-02-17 16:01:29,266 Reading preprocessed data from Weights and Biases
+2022-02-17 16:01:31,942 Preparing sklearn pipeline
+/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py:46: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_train[num_cols] = scaler.fit_transform(X_train[num_cols])
+/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexing.py:1734: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  isetter(loc, value[:, i].tolist())
+/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py:47: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_test[num_cols] = scaler.transform(X_test[num_cols])
+/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/pandas/core/indexing.py:1734: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  isetter(loc, value[:, i].tolist())
+0.8137440758293839
+2022-02-17 16:01:33,620 Random Forest Model saved
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:58.145079, resuming normal operation.
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 76, in <module>
+    go(args)
+  File "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/train_model/train_model.py", line 60, in go
+    log_artifact("Random_Forest_model",
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb_utils/log_artifact.py", line 28, in log_artifact
+    artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/sdk/wandb_artifacts.py", line 631, in wait
+    return self._logged_artifact.wait()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2452, in wait
+    self._instance = public.Artifact.from_id(resp.artifact_id, self._api.client)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/wandb/apis/public.py", line 2742, in from_id
+    with requests.get(index_file_url) as req:
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-ed3e60702d0de8e442bdd8c760d5ddec161b9573/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))

@@ -1,0 +1,5 @@
+
+2022-02-17 15:37:41,387 Fetching artifact clean_telco.csv:latest
+2022-02-17 15:37:44,384 Splitting trainval and test
+2022-02-17 15:37:44,400 Uploading trainval_data.csv dataset
+2022-02-17 15:37:53,394 Uploading test_data.csv dataset
