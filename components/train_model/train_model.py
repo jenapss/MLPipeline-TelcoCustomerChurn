@@ -30,7 +30,7 @@ def go(args):
 
     training_data = pd.read_csv(training_artifact,encoding="ISO-8859–1")
 
-    print(type(training_data))
+    # print(type(training_data))
     
 
 
