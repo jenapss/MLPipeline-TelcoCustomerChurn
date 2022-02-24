@@ -1,31 +1,6 @@
+import pandas as pd
 
-import os
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
-from google.colab import auth
-from oauth2client.client import GoogleCredentials
+df = pd.read_csv('components/get_data/data/Telco1.csv')
 
-# 1. Authenticate and create the PyDrive client.
-auth.authenticate_user()
-gauth = GoogleAuth()
-gauth.credentials = GoogleCredentials.get_application_default()
-drive = GoogleDrive(gauth)
+print(list(df.columns))
 
-# choose a local (colab) directory to store the data.
-local_download_path = ''
-try:
-    os.makedirs(local_download_path)
-except: pass
-
-# 2. Auto-iterate using the query syntax
-#    https://developers.google.com/drive/v2/web/search-parameters
-file_list = drive.ListFile(
-    {'q': "'1f4R4KNvIR3QhEmTMac9kvSCKIMCjywsh' in parents"}).GetList()  #use your own folder ID here
-
-for f in file_list:
-    # 3. Create & download by id.
-    print('title: %s, id: %s' % (f['title'], f['id']))
-    fname = f['title']
-    print('downloading to {}'.format(fname))
-    f_ = drive.CreateFile({'id': f['id']})
-    f_.GetContentFile(fname)
