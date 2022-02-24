@@ -1,0 +1,16 @@
+{
+    "os": "macOS-10.16-x86_64-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-24T10:29:01.675742",
+    "startedAt": "2022-02-24T10:28:57.941152",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn/test1.py",
+    "codePath": "test1.py",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/telco_env/bin/python"
+}

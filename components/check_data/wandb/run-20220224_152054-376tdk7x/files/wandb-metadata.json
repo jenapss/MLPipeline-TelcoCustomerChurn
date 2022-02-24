@@ -1,0 +1,28 @@
+{
+    "os": "macOS-11.1-x86_64-i386-64bit",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-02-24T10:20:59.025166",
+    "startedAt": "2022-02-24T10:20:54.958325",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_telco.csv:latest",
+        "--ref",
+        "clean_telco.csv:reference"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/jenapss/MLPipeline-TelcoCustomerChurn",
+        "commit": "2d20f08898399842581227527a83fb1b2f7be855"
+    },
+    "email": "jelaleddinsultanov@yandex.ru",
+    "root": "/Users/jelaleddin/MLPipeline-TelcoCustomerChurn",
+    "host": "jelaleddins-MacBook-Pro.local",
+    "username": "jelaleddin",
+    "executable": "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/bin/python"
+}

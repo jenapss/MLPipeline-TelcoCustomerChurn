@@ -1,0 +1,113 @@
+2022-02-24 15:14:19,593 INFO    MainThread:28667 [internal.py:wandb_internal():88] W&B internal server running at pid: 28667, started at: 2022-02-24 15:14:19.592973
+2022-02-24 15:14:19,594 INFO    WriterThread:28667 [datastore.py:open_for_write():77] open: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/check_data/wandb/run-20220224_151418-376tdk7x/run-376tdk7x.wandb
+2022-02-24 15:14:19,595 DEBUG   HandlerThread:28667 [handler.py:handle_request():101] handle_request: check_version
+2022-02-24 15:14:19,596 DEBUG   SenderThread:28667 [sender.py:send():122] send: header
+2022-02-24 15:14:19,596 DEBUG   SenderThread:28667 [sender.py:send():122] send: request
+2022-02-24 15:14:19,596 DEBUG   SenderThread:28667 [sender.py:send_request():131] send_request: check_version
+2022-02-24 15:14:24,600 DEBUG   SenderThread:28667 [sender.py:send():122] send: run
+2022-02-24 15:14:24,603 INFO    SenderThread:28667 [sender.py:_maybe_setup_resume():312] checking resume status for None/telco_churn/376tdk7x
+2022-02-24 15:14:53,600 DEBUG   HandlerThread:28667 [handler.py:handle_request():101] handle_request: shutdown
+2022-02-24 15:14:53,600 INFO    HandlerThread:28667 [handler.py:finish():535] shutting down handler
+2022-02-24 15:14:53,679 INFO    WriterThread:28667 [datastore.py:close():258] close: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/check_data/wandb/run-20220224_151418-376tdk7x/run-376tdk7x.wandb
+2022-02-24 15:15:49,973 INFO    SenderThread:28667 [sender.py:_maybe_setup_resume():371] configured resuming with: {'step': 0, 'history': 0, 'events': 0, 'output': 0, 'runtime': 0, 'summary': {}, 'config': {'_wandb': {'desc': None, 'value': {'t': {'4': '3.9.10', '5': '0.10.21', '8': [5]}, 'cli_version': '0.10.21', 'is_jupyter_run': False, 'python_version': '3.9.10', 'is_kaggle_kernel': False}}}, 'resumed': True}
+2022-02-24 15:15:50,567 INFO    SenderThread:28667 [sender.py:_start_run_threads():596] run started: 376tdk7x with start time 1645697658
+2022-02-24 15:15:50,568 INFO    SenderThread:28667 [sender.py:finish():833] shutting down sender
+2022-02-24 15:15:52,582 ERROR   Thread-10 :28667 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/376tdk7x/config.yaml?Expires=1645784152&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HYMFxQWA%2FnWgk7ggSQ5mrDbgRXswB5hfv%2BqzsBm%2FM3C3U4ZRrhk0cNwltgEsW27sImOV8LHx0CIvyCGaP%2FgxjADCt%2FOPTASUAKIT8g02imXqX8c7NdnELkgOz8TkUEWS1cV4k9F806R74BqocuFziuURaSzp1oqexRpG1cw4P6YwAfly5XWPdvYN9F3mKZKMpwY3JKzznK65OshZZnytYA3Wo3NdDzXK3CDz6SlW6IBjHQRDkJDrKxUM3nCJxORj%2F%2FlkfRpoiFUzMxhYcXWgEbsFj0Ht%2BthQJ6oGnAXfw9BCECG8snF6YToKzk8%2BMwTZWVcHX5Fpohz2Y%2FprNMEzLg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 15:15:53,882 ERROR   Thread-10 :28667 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/376tdk7x/config.yaml?Expires=1645784152&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HYMFxQWA%2FnWgk7ggSQ5mrDbgRXswB5hfv%2BqzsBm%2FM3C3U4ZRrhk0cNwltgEsW27sImOV8LHx0CIvyCGaP%2FgxjADCt%2FOPTASUAKIT8g02imXqX8c7NdnELkgOz8TkUEWS1cV4k9F806R74BqocuFziuURaSzp1oqexRpG1cw4P6YwAfly5XWPdvYN9F3mKZKMpwY3JKzznK65OshZZnytYA3Wo3NdDzXK3CDz6SlW6IBjHQRDkJDrKxUM3nCJxORj%2F%2FlkfRpoiFUzMxhYcXWgEbsFj0Ht%2BthQJ6oGnAXfw9BCECG8snF6YToKzk8%2BMwTZWVcHX5Fpohz2Y%2FprNMEzLg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 15:15:56,167 ERROR   Thread-10 :28667 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/376tdk7x/config.yaml?Expires=1645784152&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HYMFxQWA%2FnWgk7ggSQ5mrDbgRXswB5hfv%2BqzsBm%2FM3C3U4ZRrhk0cNwltgEsW27sImOV8LHx0CIvyCGaP%2FgxjADCt%2FOPTASUAKIT8g02imXqX8c7NdnELkgOz8TkUEWS1cV4k9F806R74BqocuFziuURaSzp1oqexRpG1cw4P6YwAfly5XWPdvYN9F3mKZKMpwY3JKzznK65OshZZnytYA3Wo3NdDzXK3CDz6SlW6IBjHQRDkJDrKxUM3nCJxORj%2F%2FlkfRpoiFUzMxhYcXWgEbsFj0Ht%2BthQJ6oGnAXfw9BCECG8snF6YToKzk8%2BMwTZWVcHX5Fpohz2Y%2FprNMEzLg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 15:15:56,168 ERROR   Thread-10 :28667 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1198, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/wandb/old/retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1209, in upload_file
+    util.sentry_reraise(retry.TransientException(exc=e))
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/wandb/util.py", line 120, in sentry_reraise
+    six.reraise(type(exc), exc, sys.exc_info()[2])
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1198, in upload_file
+    response = requests.put(url, data=progress, headers=extra_headers)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jelaleddin/anaconda3/envs/mlflow-d1fd4b13aac386abe6aa5a2ada1ca11214902ce4/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.old.retry.TransientException: None
+2022-02-24 15:16:00,985 ERROR   Thread-10 :28667 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/376tdk7x/config.yaml?Expires=1645784152&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=HYMFxQWA%2FnWgk7ggSQ5mrDbgRXswB5hfv%2BqzsBm%2FM3C3U4ZRrhk0cNwltgEsW27sImOV8LHx0CIvyCGaP%2FgxjADCt%2FOPTASUAKIT8g02imXqX8c7NdnELkgOz8TkUEWS1cV4k9F806R74BqocuFziuURaSzp1oqexRpG1cw4P6YwAfly5XWPdvYN9F3mKZKMpwY3JKzznK65OshZZnytYA3Wo3NdDzXK3CDz6SlW6IBjHQRDkJDrKxUM3nCJxORj%2F%2FlkfRpoiFUzMxhYcXWgEbsFj0Ht%2BthQJ6oGnAXfw9BCECG8snF6YToKzk8%2BMwTZWVcHX5Fpohz2Y%2FprNMEzLg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 15:16:13,653 INFO    MainThread:28667 [internal.py:handle_exit():78] Internal process exited

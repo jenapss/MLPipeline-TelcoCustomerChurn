@@ -1,0 +1,327 @@
+2022-02-24 14:45:59,125 INFO    MainThread:27964 [internal.py:wandb_internal():88] W&B internal server running at pid: 27964, started at: 2022-02-24 14:45:59.125488
+2022-02-24 14:45:59,127 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: check_version
+2022-02-24 14:45:59,128 INFO    WriterThread:27964 [datastore.py:open_for_write():77] open: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/check_data/wandb/run-20220224_144557-14qgb0ur/run-14qgb0ur.wandb
+2022-02-24 14:45:59,129 DEBUG   SenderThread:27964 [sender.py:send():122] send: header
+2022-02-24 14:45:59,130 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:45:59,130 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: check_version
+2022-02-24 14:45:59,791 DEBUG   SenderThread:27964 [sender.py:send():122] send: run
+2022-02-24 14:45:59,792 INFO    SenderThread:27964 [sender.py:_maybe_setup_resume():312] checking resume status for None/telco_churn/14qgb0ur
+2022-02-24 14:46:01,108 INFO    SenderThread:27964 [sender.py:_start_run_threads():596] run started: 14qgb0ur with start time 1645695958
+2022-02-24 14:46:01,109 DEBUG   SenderThread:27964 [sender.py:send():122] send: summary
+2022-02-24 14:46:01,109 INFO    SenderThread:27964 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-02-24 14:46:01,110 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: run_start
+2022-02-24 14:46:01,115 DEBUG   HandlerThread:27964 [meta.py:__init__():34] meta init
+2022-02-24 14:46:01,115 DEBUG   HandlerThread:27964 [meta.py:__init__():48] meta init done
+2022-02-24 14:46:01,115 DEBUG   HandlerThread:27964 [meta.py:probe():190] probe
+2022-02-24 14:46:01,122 DEBUG   HandlerThread:27964 [meta.py:_setup_git():180] setup git
+2022-02-24 14:46:01,160 DEBUG   HandlerThread:27964 [meta.py:_setup_git():187] setup git done
+2022-02-24 14:46:01,161 DEBUG   HandlerThread:27964 [meta.py:_save_pip():52] save pip
+2022-02-24 14:46:01,161 DEBUG   HandlerThread:27964 [meta.py:_save_pip():66] save pip done
+2022-02-24 14:46:01,161 DEBUG   HandlerThread:27964 [meta.py:probe():231] probe done
+2022-02-24 14:46:01,166 DEBUG   SenderThread:27964 [sender.py:send():122] send: files
+2022-02-24 14:46:01,166 INFO    SenderThread:27964 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2022-02-24 14:46:01,174 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: status
+2022-02-24 14:46:01,175 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:01,176 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: status
+2022-02-24 14:46:02,286 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:02,598 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:02,599 DEBUG   SenderThread:27964 [sender.py:send():122] send: telemetry
+2022-02-24 14:46:03,307 DEBUG   SenderThread:27964 [sender.py:send():122] send: exit
+2022-02-24 14:46:03,307 INFO    SenderThread:27964 [sender.py:send_exit():200] handling exit code: 0
+2022-02-24 14:46:03,307 INFO    SenderThread:27964 [sender.py:send_exit():208] send defer
+2022-02-24 14:46:03,307 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,307 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:03,308 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:03,308 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 0
+2022-02-24 14:46:03,309 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,309 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:03,309 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 0
+2022-02-24 14:46:03,309 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 1
+2022-02-24 14:46:03,310 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:03,310 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 1
+2022-02-24 14:46:03,382 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,382 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:03,382 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 1
+2022-02-24 14:46:03,382 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 2
+2022-02-24 14:46:03,382 DEBUG   SenderThread:27964 [sender.py:send():122] send: stats
+2022-02-24 14:46:03,383 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:03,383 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 2
+2022-02-24 14:46:03,383 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,383 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:03,383 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 2
+2022-02-24 14:46:03,383 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 3
+2022-02-24 14:46:03,383 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:03,383 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 3
+2022-02-24 14:46:03,383 DEBUG   SenderThread:27964 [sender.py:send():122] send: summary
+2022-02-24 14:46:03,384 INFO    SenderThread:27964 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-02-24 14:46:03,384 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,384 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:03,384 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 3
+2022-02-24 14:46:03,384 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 4
+2022-02-24 14:46:03,385 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:03,385 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 4
+2022-02-24 14:46:03,385 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:03,385 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:03,385 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 4
+2022-02-24 14:46:03,499 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:04,128 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 5
+2022-02-24 14:46:04,129 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:04,130 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 5
+2022-02-24 14:46:04,133 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:04,133 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:04,133 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 5
+2022-02-24 14:46:04,134 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 6
+2022-02-24 14:46:04,135 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:04,135 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 6
+2022-02-24 14:46:04,135 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:04,135 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:04,135 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 6
+2022-02-24 14:46:04,704 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 7
+2022-02-24 14:46:04,705 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:04,705 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 7
+2022-02-24 14:46:04,705 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:04,705 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:04,705 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 7
+2022-02-24 14:46:04,705 INFO    SenderThread:27964 [sender.py:send_request_defer():253] send defer: 8
+2022-02-24 14:46:04,706 DEBUG   SenderThread:27964 [sender.py:send():122] send: final
+2022-02-24 14:46:04,706 DEBUG   SenderThread:27964 [sender.py:send():122] send: footer
+2022-02-24 14:46:04,706 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: defer
+2022-02-24 14:46:04,706 INFO    HandlerThread:27964 [handler.py:handle_request_defer():115] handle defer: 8
+2022-02-24 14:46:04,706 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:04,707 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: defer
+2022-02-24 14:46:04,707 INFO    SenderThread:27964 [sender.py:send_request_defer():217] handle sender defer: 8
+2022-02-24 14:46:05,243 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:05,310 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:05,311 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:05,311 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:05,375 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:05,376 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:06,157 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:06,640 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:06,756 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:06,788 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:07,317 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:07,318 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:07,318 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:08,928 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:09,018 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:09,176 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:09,321 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:09,321 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:09,321 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:10,582 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:11,327 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:11,327 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:11,327 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:13,329 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:13,329 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:13,329 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:13,371 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:14,064 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:14,176 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:15,333 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:15,333 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:15,333 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:17,336 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:17,337 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:17,337 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:19,298 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:19,342 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:19,342 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:19,342 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:21,351 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:21,352 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:21,352 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:22,230 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:23,093 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:23,130 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:23,357 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:23,358 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:23,358 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:25,359 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:25,359 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:25,360 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:27,364 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:27,364 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:27,364 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:29,371 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:29,372 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:29,372 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:31,374 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:31,374 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:31,374 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:33,381 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:33,382 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:33,382 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:35,384 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:35,385 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:35,385 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:37,391 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:37,391 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:37,391 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:37,525 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:38,726 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:39,415 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:39,416 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:39,416 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:41,322 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:41,323 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:41,323 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:42,729 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:42,808 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 14:46:43,335 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:43,338 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:43,340 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:45,359 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:45,360 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:45,360 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:47,367 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:47,367 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:47,367 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:49,374 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:49,375 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:49,375 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:51,385 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:51,386 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:51,386 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:53,397 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:53,397 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:53,397 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:55,410 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:55,411 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:55,411 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:57,417 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:57,417 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:57,417 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:46:59,424 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:46:59,424 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:46:59,425 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:01,426 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:01,427 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:01,427 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:03,438 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:03,439 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:03,439 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:05,445 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:05,446 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:05,446 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:07,458 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:07,459 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:07,459 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:09,469 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:09,469 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:09,469 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:11,480 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:11,480 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:11,480 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:13,483 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:13,483 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:13,483 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:15,486 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:15,487 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:15,487 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:17,495 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:17,495 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:17,496 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:19,507 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:19,508 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:19,508 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:21,518 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:21,518 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:21,518 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:23,528 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:23,528 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:23,529 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:25,530 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:25,531 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:25,531 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:27,540 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:27,541 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:27,541 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:29,552 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:29,552 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:29,552 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:31,557 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:31,558 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:31,558 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:33,562 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:33,562 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:33,562 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:35,570 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:35,571 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:35,571 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:37,573 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:37,573 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:37,573 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:39,580 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:39,580 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:39,580 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 14:47:41,593 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 14:47:41,593 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 14:47:41,593 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:12,489 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:12,493 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:12,493 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:14,518 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:14,518 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:14,518 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:16,528 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:16,528 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:16,528 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:16,547 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107f3a100>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+2022-02-24 15:06:18,534 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:18,534 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:18,535 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:20,541 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:20,542 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:20,542 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:22,545 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:22,545 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:22,545 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:23,676 ERROR   Thread-14 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-summary.json?Expires=1645782364&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=nBcJnzPMhPNMLFXvm6pUinJvmck5asFSeolS2rm%2BMrKJHiQURXO83XpDrhpN3Qa39ld3ycKpsa%2B9mVxCKh4ekyqFh6OQws%2FQAB8%2F6D26M5wqx5zxdgy9ofaRRuNU0UyAM2Zs1Q6ba3wP2qmtsqltkSSwWqCwpHCO6tnZkQU53Q%2FH5n%2F%2BScTQxD2xDMeurydeMqF18vbIQ7kQZZ01C061OC4rybavdD6noZpKIQ4GsX9mK9sbVlarXBBijOYiQ5MF7ZX7OQbSI8TrIBZWIfZo0zpdDwRxjcDQSBjGpGcWUhRvuzYaqEbt91BELTddIFJv1DhLwwmAVDjYvLi68OJjxA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107f3afa0>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+2022-02-24 15:06:24,319 ERROR   Thread-12 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/requirements.txt?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YvhgGaV2UxY01GryuZP0J3j0jiLi%2BOFm%2BK4tQIXu6zg%2BOSDhTDzTwMyfGCuQWhqGKNXJ%2ByFETU%2F1ffA3ZSFQWVkJQkqiXf0bDOATxgCBnaznmcEYjatIJLQuU0sUSWSP78P3CRk9k2qorgC5CKg0ynnME5tmHCAS6%2F%2BpnrTe5FCQ7yeFZGLklEroKwJjIArR%2BzW9Igb3b4vkHistQ1JEywTaTPZ0zzzJ8bD3fiQwLLgrsLHv3aa6R%2FWhiARl9q2D4J95u0wXh7kgc6oezUwNMcFgElLI3Wfi4y9SCkSYBbC%2Bf5jX3IJcViM8H7EStnoW0FnNZHE6OGXJYNmhxSOUHA%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107f51370>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+2022-02-24 15:06:24,547 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:24,547 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:24,548 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:25,414 ERROR   Thread-13 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/config.yaml?Expires=1645782365&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LWDGILtanNF4d%2FN0LKGQtwaewiBypEIf2%2BL2eBn6K8aKeP3WJiWRfeKDO35KV8cntOLUELrdM7T4zqJfgVVBz888mthVo2DNo5mnin39uPCtzSv3HzI2ysaHclMdXYo6bfEvwLIcdTHj1YpoTLSr2xYTyOSVNTGzDZY%2BztRS1%2BUPIaUN5t3XXfjrhq6YjAnoKVpLxKWwa4a3W3fzQlvZgx7fphfiFTdvq1QveNH6%2BzEabs7fCnh9Y0pD4yUyh4NhjjBeAP2YjxFDtWLP94sn%2Ff78M1v4MlbSECK4h2nKroCXfH8DjNL7KXYHf%2BiFjXXCxdsM%2BYz%2FzOEJzItatnNsHg%3D%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107f88910>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+2022-02-24 15:06:26,555 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:26,556 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:26,556 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:28,559 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:28,559 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:28,559 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:31,048 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:31,058 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:31,058 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:33,061 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:33,062 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:33,062 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:35,069 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:35,070 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:35,070 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:37,074 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:37,074 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:37,074 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:39,078 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:39,078 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:39,078 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:41,087 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:41,087 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:41,087 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:43,094 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:43,095 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:43,095 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:45,098 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:45,098 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:45,098 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:47,104 DEBUG   HandlerThread:27964 [handler.py:handle_request():101] handle_request: poll_exit
+2022-02-24 15:06:47,104 DEBUG   SenderThread:27964 [sender.py:send():122] send: request
+2022-02-24 15:06:47,104 DEBUG   SenderThread:27964 [sender.py:send_request():131] send_request: poll_exit
+2022-02-24 15:06:48,304 WARNING MainThread:27964 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2022-02-24 15:06:53,316 WARNING MainThread:27964 [internal.py:is_dead():343] Internal process exiting, parent pid 27957 disappeared
+2022-02-24 15:06:53,317 ERROR   MainThread:27964 [internal.py:wandb_internal():142] Internal process shutdown.
+2022-02-24 15:06:53,668 INFO    WriterThread:27964 [datastore.py:close():258] close: /Users/jelaleddin/MLPipeline-TelcoCustomerChurn/components/check_data/wandb/run-20220224_144557-14qgb0ur/run-14qgb0ur.wandb
+2022-02-24 15:06:54,121 INFO    SenderThread:27964 [sender.py:finish():833] shutting down sender
+2022-02-24 15:06:54,121 INFO    HandlerThread:27964 [handler.py:finish():535] shutting down handler
+2022-02-24 15:07:25,910 ERROR   Thread-11 :27964 [internal_api.py:upload_file():1201] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jelal/telco_churn/14qgb0ur/wandb-metadata.json?Expires=1645782361&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jTSqEHF%2BEkQWKQAkDmOAwz87059tWr9EwZXbBf%2FC%2FBup1Vc3VOMZ4xlWChCWAd5maPj%2Bv%2Blb0ZUV5UObc7CLpLhPvpyLrh7xv48prYLgolCrg3%2FHLCuOpKeldOU9xyEmBl2OgS8ucoUuCgpeUtV2NOykVeDGndN0vjj0ELG4STc0zZh7rP5VVWlx0OmpjpHkHnR9DSnXwYPtyFMWvTHkXpy8m7IOzNh%2F6izPdQbCDa8G%2BxWWQgjH58Vw2hs7dGockh29bjj82kwgCPs%2Btk5DDWMlfyvVcJaS2fWqNVhwWPugwpRul8Z%2FAV2Tt98ApjXlAMTylJj76fMUGdWWrj94UA%3D%3D ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2022-02-24 15:11:57,209 INFO    MainThread:27964 [internal.py:handle_exit():78] Internal process exited

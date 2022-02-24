@@ -13,4 +13,4 @@ entry_points:
         description: Reference CSV file to compare the new csv to
         type: string
 
-    command: "pytest . -vv --csv {csv} --ref {ref} --kl_threshold {kl_threshold} --min_price {min_price} --max_price {max_price}"
+    command: "pytest . -vv --csv {csv} --ref {ref}"
